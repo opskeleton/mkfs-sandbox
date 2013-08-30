@@ -4,5 +4,5 @@ mod 'puppetlabs/stdlib'
 
 mod 'puppetlabs/apt'
 
-mod 'editfile', 
-   :git => 'git://github.com/mstrauss/puppet-editfile.git'
+mod 'mkfs', 
+   :git => 'git://github.com/narkisr/puppet-mkfs.git'

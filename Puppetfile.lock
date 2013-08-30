@@ -1,0 +1,19 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/apt (1.2.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/stdlib (4.1.0)
+
+GIT
+  remote: git://github.com/narkisr/puppet-mkfs.git
+  ref: master
+  sha: 5de4af8d3dcfa7c70f781d199838b5ab4817f7e7
+  specs:
+    mkfs (0.1.0)
+
+DEPENDENCIES
+  mkfs (>= 0)
+  puppetlabs/apt (>= 0)
+  puppetlabs/stdlib (>= 0)
+
