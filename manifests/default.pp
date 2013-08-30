@@ -1,5 +1,9 @@
 group{ 'puppet': ensure  => present }
 
-node 'partitioning.local' {
+node 'ubuntu.local' {
+  class{'partition': device => '/dev/sdb', dest => '/mnt/drive/'}
+}
 
+node 'centos.local' {
+  class{'partition': device => '/dev/sdb', dest => '/mnt/drive/'  }
 }
