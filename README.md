@@ -1,5 +1,6 @@
 # Intro 
-This project manages a sandbox for [partitioning](url)
+
+Basic mkfs and mounting testing
 
 # Usage
 ```bash
