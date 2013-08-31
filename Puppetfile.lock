@@ -8,7 +8,7 @@ FORGE
 GIT
   remote: git://github.com/narkisr/puppet-mkfs.git
   ref: master
-  sha: 5de4af8d3dcfa7c70f781d199838b5ab4817f7e7
+  sha: a7d28ae17ea64c4f2c510735fafc7db886dbd9e5
   specs:
     mkfs (0.1.0)
 
